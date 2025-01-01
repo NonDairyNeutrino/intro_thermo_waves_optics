@@ -1,13 +1,19 @@
+#let course = [Physics 222&: Engineering Physics II]
+#let doc    = [Syllabus]
+
 #set page(
   paper: "us-letter",
-  margin: (0.625in),
-  numbering: "1"
+  margin: (top: auto, rest: 0.625in),
+  numbering: "1",
+  header: [#course #h(1fr) #doc #line(length: 100%)]
 )
 #set par(justify: true)
 #set text(font: "New Computer Modern")
 #set enum(numbering: "1.a")
 
-#align(center)[= Physics 222&: Engineering Physics II Syllabus]
+#show link: set text(fill: blue, style: "italic")
+#show link: lnk => underline(lnk)
+#align(center)[= #course #doc]
 
 #line(length: 100%)
 #v(-10pt)
@@ -52,7 +58,7 @@ Upon successful completion of this course, each student should be able to:
 
 == Required Textbooks & Resources
 - _Physics for Scientists and Engineers with Modern Physics, Randall Knight, 5th edition, Pearson_
-- Access to MasteringPhysics.com for homework.
+- Access to MasteringPhysics
 - Graphing or scientific calculator e.g. handheld, Desmos, Wolfram|Alpha, etc.
 
 == Grading
@@ -64,11 +70,18 @@ The grading scheme for this course is as follows
 - Final Project -- 10%
 
 == MasteringPhysics
-MasteringPhysics is the assessment tool we will use for homeworks/assignments.  MasteringPhysics will be due the Monday following the end of the topic (typically Friday).  These assignments can take significant time; it is suggested to start during the week and continue as the topics are covered.
+MasteringPhysics is an online homework tool whose access comes with your purchase of the textbook;  it will be the main source of work outside the classroom.  *MasteringPhysics is due on Mondays by the start of class.*  These assignments can take significant time; it is suggested to start during the week and continue as the topics are covered.
 
 == Labs
+Physics is not just using math, but about making observations, forming questions, making predictions, testing our predictions by gathering data via experiments.  As such, a core part of our course will be executing experiments in a laboratory setting to observe, record, and analyze natural phenomena in order to build a deeper understanding of the world around us.  These guided experiemental investigations (lab packets will be provided) will be completed in groups over the course of several hours using various equipment including both hardware and software.  
 
 == Worksheets
+In order to help solidify understanding, *there will be worksheets every lecture* (i.e. every meeting that's not a lab) covering the topics of the day.  Approximately half of the class period will be reserved to work on the worksheets in groups; if the worksheet is not completed during the class period, it is the responsibility of the student to do the rest outside of class.  Finished worksheets are to be submitted via Canvas, and are graded on completion.
+
+These worksheets will be from the Student Workbook, for which the electronic version is available through Access Pearson in Canvas; a physical version is also available for purchase in addition to the textbook.  Access to these worksheets, either in physical or digitial form, is essential to participating in class.  There are two options for doing so:
+- You complete the worksheet material on a piece of paper.  This could take the form of using the worksheet from the physical workbook or referencing the material from online via a phone, tablet, or laptop but doing the work on your own paper.  These should be scanned to a pdf either by a scanner or by a mobile device via #link("https://www.adobe.com/acrobat/mobile/scanner-app.html")[*Adobe Scan Mobile*].
+
+- You complete your work digitally e.g. on your tablet.  These should be saved as a pdf.
 
 == Final Project
 
