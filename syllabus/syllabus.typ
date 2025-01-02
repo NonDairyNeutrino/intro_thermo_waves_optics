@@ -64,10 +64,13 @@ Upon successful completion of this course, each student should be able to:
 == Grading
 The grading scheme for this course is as follows
 
-- MasteringPhysics -- 30%
-- Labs -- 30%
-- Worksheets -- 30%
-- Final Project -- 10%
+#table(
+  columns: 2,
+  [MasteringPhysics], [30%],
+  [Labs], [30%],
+  [Worksheets], [30%],
+  [Final Project], [10%]
+)
 
 == MasteringPhysics
 MasteringPhysics is an online homework tool whose access comes with your purchase of the textbook;  it will be the main source of work outside the classroom.  *MasteringPhysics is due on Mondays by the start of class.*  These assignments can take significant time; it is suggested to start during the week and continue as the topics are covered.
@@ -84,12 +87,19 @@ These worksheets will be from the Student Workbook, for which the electronic ver
 - You complete your work digitally e.g. on your tablet.  These should be saved as a pdf.
 
 == Final Project
+Instead of exams, the culminating experience for this course will be a final group project.  The project will be equal parts writing and presenting.  More details will be provided later.
+
+=== Proposal
+Near the middle of the quarter, a proposal must be submitted to the instructor.  This proposal must include, but is not limited to, the main topic, starting references, relevant equations and overall theoretical model.  This submission is to ensure the topic of the project is of appropriate scope.
+
+=== Writing
+The written document must be prepared in either of the technical document preperation programs Typst (reccomended) or LaTeX; Word or Google documents will *not* be accepted.
+
+=== Presenting
+Final presentations will be held on the Wednesday of the last week of the quarter.
 
 == Student Conduct Expectations
 This course includes elements that require not only your physical presence, but also your mental presence. The work we will do in this course is highly technical and collaborative; be prepared to engage with the content and your peers every day.
-
-== Course Schedule
-TBD
 
 == Guidelines for Contacting the Instructor
 The best way to contact me is via email or in office hours.  I intend to be unavailable outside of conventional working hours, but will otherwise get back to you as soon as I can.  *Note:* If you expect to be unable to come to class for less than three meetings, there is no need to let me know.
@@ -111,7 +121,28 @@ services office in Laidlaw 134 to make an appointment (`ads@whatcom.edu`, 360.38
 WCC is committed to maintaining an environment in which every member of the College community feels welcome to participate in the life of the  College, free from harassment and discrimination. We welcome people of all races, ethnicity, national origins, religions, ages, genders, sexua orientations, marital status, veteran status, abilities, and disabilities. Toward that end, faculty, students, and staff will treat one another with respect and dignity; promote a learning and working community that ensures social justice, understanding, civility and non-violence in a safe and supportive climate; and influence curriculum, teaching strategies, student services, and personnel practices that facilitate sensitivity and openness to diverse ideas, peoples and cultures in a creative, safe, and collegial environment.
 
 == Non-Discrimination Policy, Title IX, and Sexual Misconduct
-WCC does not discriminate based on race, color, national origin, religion, sex, disability, honorably discharged veteran or military status, sexual orientation, genetic information, or age in its programs and activities. WCC's discrimination and harassment policy (615), Title IX [sexual misconduct and harassment] policy (616), and student rights and responsibilities policy (620) strictly prohibit sexual harassment, intimidation, and violence. Anyone who has experienced sexual misconduct is encouraged to contact a WCC counselor (Laidlaw 134, 360.383.3139) to receive confidential support and learn about reporting options. Any disclosure of such misconduct shared with another faculty or staff member is non confidential and requires a report to WCC’s Title IX coordinator, who has been designated to handle such reports. Inquiries regarding non- discrimination, Title IX, and sexual misconduct policies can be directed to the Title IX coordinator at 360.383.3400. 
+WCC does not discriminate based on race, color, national origin, religion, sex, disability, honorably discharged veteran or military status, sexual orientation, genetic information, or age in its programs and activities. WCC's discrimination and harassment policy (615), Title IX [sexual misconduct and harassment] policy (616), and student rights and responsibilities policy (620) strictly prohibit sexual harassment, intimidation, and violence. Anyone who has experienced sexual misconduct is encouraged to contact a WCC counselor (Laidlaw 134, 360.383.3139) to receive confidential support and learn about reporting options. Any disclosure of such misconduct shared with another faculty or staff member is non confidential and requires a report to WCC's Title IX coordinator, who has been designated to handle such reports. Inquiries regarding non- discrimination, Title IX, and sexual misconduct policies can be directed to the Title IX coordinator at 360.383.3400. 
 
 == Accommodations for reasons of faith or conscience
 Students who will be absent from course activities due to reasons of faith or conscience may seek reasonable accommodations, so grades are not affected. Such requests must be made to the instructor within the first two weeks of the quarter and should specify the exact dates the student will miss. The instructor and student will then identify the specific reasonable accommodations for the missed class sessions.
+
+#align(center, [== Course Schedule])
+#align(
+  center,
+  table(
+    align: center,
+    columns: 4,
+    table.header[*Week*][*Part*][*Section*][*Chapter*],
+    [Week 1], [Newtonian Mechanics],                  [Fluids & Elasticity], [14],
+    [Week 2], table.cell(rowspan: 4)[Thermodynamics], [Macroscopic Matter], [18],
+    [Week 3],                                         [First Law of Thermodynamics], [19],
+    [Week 4],                                         [Micro/Macro Connection], [20],
+    [Week 5],                                         [Heat Engines and Refrigerators], [21],
+    [Week 6], table.cell(rowspan: 3)[Oscillation & Waves], [Oscillations], [15],
+    [Week 7],                                              [Travelling Waves], [16],
+    [Week 8],                                              [Superposition], [17],
+    [Week 9], table.cell(rowspan: 3)[Optics],  [Wave Optics], [33],
+    [Week 10],                                 [Raw Optics], [34],
+    [Week 11],                                 [Optical Instruments], [35]
+  )
+)
