@@ -63,23 +63,25 @@ Upon successful completion of this course, each student should be able to:
 
 == Grading
 The grading scheme for this course is as follows
-
-#table(
-  columns: 2,
-  [MasteringPhysics], [30%],
-  [Labs], [30%],
-  [Worksheets], [30%],
-  [Final Project], [10%]
-)
+#align(center, [
+  #table(
+    columns: 2,
+    [MasteringPhysics], [30%],
+    [Labs], [30%],
+    [Worksheets], [30%],
+    [Final Project], [10%],
+    [Reflections (Extra Credit)], [10%]
+  )
+])
 
 == MasteringPhysics
 MasteringPhysics is an online homework tool whose access comes with your purchase of the textbook;  it will be the main source of work outside the classroom.  *MasteringPhysics is due on Mondays by the start of class.*  These assignments can take significant time; it is suggested to start during the week and continue as the topics are covered.
 
 == Labs
-Physics is not just using math, but about making observations, forming questions, making predictions, testing our predictions by gathering data via experiments.  As such, a core part of our course will be executing experiments in a laboratory setting to observe, record, and analyze natural phenomena in order to build a deeper understanding of the world around us.  These guided experiemental investigations (lab packets will be provided) will be completed in groups over the course of several hours using various equipment including both hardware and software.  
+Physics is not just using math, but about making observations, forming questions, making predictions, testing our predictions by gathering data via experiments.  As such, a core part of our course will be executing experiments in a laboratory setting to observe, record, and analyze natural phenomena in order to build a deeper understanding of the world around us.  These guided experiemental investigations (lab packets will be provided) will be completed in groups over the course of several hours using various equipment including both hardware and software.  *The lowest lab is dropped.*
 
 == Worksheets
-In order to help solidify understanding, *there will be worksheets every lecture* (i.e. every meeting that's not a lab) covering the topics of the day.  Approximately half of the class period will be reserved to work on the worksheets in groups; if the worksheet is not completed during the class period, it is the responsibility of the student to do the rest outside of class.  Finished worksheets are to be submitted via Canvas, and are graded on completion.
+In order to help solidify understanding, *there will be worksheets every lecture* (i.e. every meeting that's not a lab) covering the topics of the day.  Approximately half of the class period will be reserved to work on the worksheets in groups; if the worksheet is not completed during the class period, it is the responsibility of the student to do the rest outside of class.  Finished worksheets are to be submitted via Canvas, and are graded on completion.  *The two lowest worksheets are dropped.*
 
 These worksheets will be from the Student Workbook, for which the electronic version is available through Access Pearson in Canvas; a physical version is also available for purchase in addition to the textbook.  Access to these worksheets, either in physical or digitial form, is essential to participating in class.  There are two options for doing so:
 - You complete the worksheet material on a piece of paper.  This could take the form of using the worksheet from the physical workbook or referencing the material from online via a phone, tablet, or laptop but doing the work on your own paper.  These should be scanned to a pdf either by a scanner or by a mobile device via #link("https://www.adobe.com/acrobat/mobile/scanner-app.html")[*Adobe Scan Mobile*].
@@ -92,22 +94,25 @@ Instead of exams, the culminating experience for this course will be a final gro
 === Proposal
 Near the middle of the quarter, a proposal must be submitted to the instructor.  This proposal must include, but is not limited to, the main topic, starting references, relevant equations and overall theoretical model.  This submission is to ensure the topic of the project is of appropriate scope.
 
-=== Writing
+=== Written
 The written document must be prepared in either of the technical document preperation programs Typst (reccomended) or LaTeX; Word or Google documents will *not* be accepted.
 
-=== Presenting
+=== Presentation
 Final presentations will be held on the Wednesday of the last week of the quarter.
+
+== Weekly Reflections (Extra Credit)
+Students will have the opportunity to reflect on their learning and the topic each week for *extra credit*.  These reflections will take the form of Canvas discussions; one point will be awarded for the initial post reflecting on given prompts, and another for responding to another post.  Weekly reflections can supply up to an extra 10% of the final grade.
 
 == Student Conduct Expectations
 This course includes elements that require not only your physical presence, but also your mental presence. The work we will do in this course is highly technical and collaborative; be prepared to engage with the content and your peers every day.
 
 == Guidelines for Contacting the Instructor
-The best way to contact me is via email or in office hours.  I intend to be unavailable outside of conventional working hours, but will otherwise get back to you as soon as I can.  *Note:* If you expect to be unable to come to class for less than three meetings, there is no need to let me know.
+The best way to contact me is via email or in office hours.  I intend to be unavailable outside of conventional working hours, but will otherwise get back to you as soon as I can.  *Note:* If you expect to be unable to come to class for only 1 or 2 meetings, there is no need to let me know.
 
 == Attendance
 There is no intrinsic penalty for lack of attendance in this course.  Instead, it is up to the student to keep up on any material covered in class while away; this material will be posted on Canvas prior to being covered in class.  As for labs, materials to complete labs outside of class time are available in the Math Center (LRN 340).  While attendence is not required, it is highly suggested as collaboration with peers and participating with in-class activities is paramount to success.
 
-== Late Work Policy
+== Late Work
 There is no intrinsic penalty for late work in this course.  Instead, assignments will be due periodically but remain open (i.e. able to accept submissions) until the end of the quarter.
 
 == Core Learning Abilities
