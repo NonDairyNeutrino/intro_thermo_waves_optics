@@ -1,2 +1,2 @@
-# intro_thermo_waves_optics
-A collection of materials for teaching introductory physics of thermodynamics, oscillations and waves, and optics.
+# intro_hodgepodge
+A collection of materials for teaching introductory physics of fluids, thermodynamics, oscillations and waves, and optics.
